@@ -1,10 +1,11 @@
 module Test.Main where
 
-import Prelude
+import AppPrelude
 
-import Effect (Effect)
-import Effect.Class.Console (log)
-
+-- import Prelude
+-- import Effect (Effect)
+--import Effect.Class.Console (log) - more general and more elaborately typed version of Effect.Console
+--import Effect.Console (log)
 main :: Effect Unit
 main = do
   log "🍝"

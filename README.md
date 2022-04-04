@@ -9,7 +9,7 @@ This is my new-to-purescript take on a robust method of creating new projects, b
 
 1. Create new project on github: Set Public, Add README, skip .gitignore for now, set MIT License
 2. On local machine: git clone <github URL/project-name.git>, this creates
-- <project-name> folder containing
+- project-name folder containing
 - LICENSE file
 - README.md file
 - .git hidden infrastructure folder and contents
